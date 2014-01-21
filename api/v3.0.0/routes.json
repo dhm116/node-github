@@ -1946,7 +1946,14 @@
                 },
                 "$page": null,
                 "$per_page": null,
-                "$since": null
+                "$since": null,
+                "author": {
+                    "type":"String",
+                    "required": false,
+                    "validation": "",
+                    "invalidmsg": "",
+                    "description": "Optional string - GitHub login, name, or email by which to filter by commit author."
+                }
             }
         },
 
